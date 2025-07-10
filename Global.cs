@@ -1,0 +1,17 @@
+﻿global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.OpenApi.Models;
+global using NewsApp.Data;
+global using NewsApp.Models;
+global using NewsApp.Services;
+global using System.Text;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using NewsApp.Domain.DTOs;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using Microsoft.AspNetCore.Authorization;
+global using NewsApp.DTOs;

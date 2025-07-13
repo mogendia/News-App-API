@@ -50,7 +50,26 @@ namespace NewsApp.Controllers
 
             return Ok(result);
         }
-        [HttpGet("breaking")]
+        [HttpGet("homepage")]
+        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> HomePage()
+        {
+            var breakingNews = await _context.News
+                .Where(n => n.IsHomePage == true)
+                .Include(n => n.Section)
+                .OrderByDescending(n => n.CreatedAt)
+                .Select(n => new NewsResponseDto
+                {
+                    Id = n.Id,
+                    Title = n.Title,
+                    Content = n.Content,
+                    ImageUrl = n.ImageUrl,
+                    CreatedAt = n.CreatedAt,
+                    SectionName = n.Section.Name
+                })
+                .ToListAsync();
+
+            return Ok(breakingNews);
+        }    [HttpGet("breaking")]
         public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetBreakingNews()
         {
             var breakingNews = await _context.News
@@ -89,24 +108,30 @@ namespace NewsApp.Controllers
         }
 
         [HttpGet("search")]
-        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetNewsBySearch([FromQuery] string query)
+        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> SearchNews([FromQuery] string query)
         {
-            var news = await _context.News.Where(n => n.Title.Contains(query) || n.Content.Contains(query))
-               .Select(n => new NewsResponseDto
-               {
-                   Id = n.Id,
-                   Title = n.Title,
-                   Content = n.Content,
-                   ImageUrl = n.ImageUrl,
-                   CreatedAt = n.CreatedAt,
-                   SectionName = n.Section.Name
-               })
+            if (string.IsNullOrWhiteSpace(query))
+                return BadRequest("Query is required");
+
+            query = query.ToLower();
+
+            var news = await _context.News
+                .Where(n => n.Title.ToLower().Contains(query) || n.Content.ToLower().Contains(query))
+                .OrderByDescending(n => n.CreatedAt)
+                .Select(n => new NewsResponseDto
+                {
+                    Id = n.Id,
+                    Title = n.Title,
+                    Content = n.Content,
+                    ImageUrl = n.ImageUrl,
+                    SectionId = n.SectionId,
+                    IsImportant = n.IsImportant,
+                    IsHomePage = n.IsHomePage,
+                    CreatedAt = n.CreatedAt
+                })
                 .ToListAsync();
-               
-            if (news == null || !news.Any())
-            {
-                return NotFound("No news found matching your search.");
-            }
+
+
             return Ok(news);
         }
 

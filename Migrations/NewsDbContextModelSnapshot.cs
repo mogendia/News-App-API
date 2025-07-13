@@ -183,7 +183,7 @@ namespace NewsApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ads");
+                    b.ToTable("Ads", (string)null);
                 });
 
             modelBuilder.Entity("NewsApp.Models.ApplicationUser", b =>
@@ -292,7 +292,7 @@ namespace NewsApp.Migrations
 
                     b.HasIndex("SectionId");
 
-                    b.ToTable("News");
+                    b.ToTable("News", (string)null);
                 });
 
             modelBuilder.Entity("NewsApp.Models.Section", b =>
@@ -309,7 +309,7 @@ namespace NewsApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sections");
+                    b.ToTable("Sections", (string)null);
 
                     b.HasData(
                         new

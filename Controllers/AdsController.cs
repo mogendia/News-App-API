@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Data;
-
+﻿
 namespace NewsApp.Controllers
 {
     [Route("api/[controller]")]
@@ -44,6 +41,37 @@ namespace NewsApp.Controllers
 
             return CreatedAtAction(nameof(GetAd), new { id = ad.Id }, new { ad.Id });
         }
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateAd(int id, [FromForm] CreateAdDto dto)
+        {
+            var ad = await _context.Ads.FindAsync(id);
+            if (ad == null)
+                return NotFound(new { message = "الإعلان غير موجود" });
+
+            ad.Title = dto.Title;
+            ad.Description = dto.Description;
+
+            if (dto.Media != null)
+            {
+                var ext = Path.GetExtension(dto.Media.FileName).ToLowerInvariant();
+                var mediaType = ext switch
+                {
+                    ".mp4" or ".webm" or ".ogg" => "video",
+                    ".jpg" or ".jpeg" or ".png" or ".gif" => "image",
+                    _ => "other"
+                };
+
+                var mediaUrl = await _mediaService.SaveMediaAsync(dto.Media);
+                ad.MediaUrl = mediaUrl;
+                ad.MediaType = mediaType;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "تم تعديل الإعلان بنجاح" });
+        }
+
 
         [HttpGet("{id}")]
         public async Task<ActionResult<AdResponseDto>> GetAd(int id)
@@ -83,10 +111,15 @@ namespace NewsApp.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAd(int id)
         {
-            var ad = _context.Ads.FindAsync(id);
-            if (ad == null) return NotFound();
-            _context.Remove(ad);
+            var ad = await _context.Ads.FindAsync(id);
+            if (ad == null)
+            {
+                return NotFound();
+            }
+
+            _context.Ads.Remove(ad);
             await _context.SaveChangesAsync();
+
             return NoContent();
         }
     }

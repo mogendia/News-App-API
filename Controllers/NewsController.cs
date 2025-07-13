@@ -71,7 +71,44 @@ namespace NewsApp.Controllers
             return Ok(breakingNews);
         }
 
+        [HttpGet("section/{sectionId}")]
+        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetNewsBySection(int sectionId)
+        {
+            var news = await _context.News.Where(x => x.SectionId == sectionId)
+                .Select(n=>new NewsResponseDto
+                {
+                    Id = n.Id,
+                    Title = n.Title,
+                    Content = n.Content,
+                    ImageUrl = n.ImageUrl,
+                    CreatedAt = n.CreatedAt,
+                    SectionName = n.Section.Name
+                })
+                .ToListAsync();
+            return Ok(news);
+        }
 
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetNewsBySearch([FromQuery] string query)
+        {
+            var news = await _context.News.Where(n => n.Title.Contains(query) || n.Content.Contains(query))
+               .Select(n => new NewsResponseDto
+               {
+                   Id = n.Id,
+                   Title = n.Title,
+                   Content = n.Content,
+                   ImageUrl = n.ImageUrl,
+                   CreatedAt = n.CreatedAt,
+                   SectionName = n.Section.Name
+               })
+                .ToListAsync();
+               
+            if (news == null || !news.Any())
+            {
+                return NotFound("No news found matching your search.");
+            }
+            return Ok(news);
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<NewsResponseDto>> GetNewsById(int id)
@@ -129,19 +166,22 @@ namespace NewsApp.Controllers
         public async Task<IActionResult> UpdateNews(int id, [FromForm] CreateNewsDto dto)
         {
             var news = await _context.News.FindAsync(id);
-            if (news == null)
-                return NotFound();
+            if (news == null) return NotFound();
+
+            news.Title = dto.Title;
+            news.Content = dto.Content;
+            news.SectionId = dto.SectionId;
+            news.IsImportant = dto.IsImportant;
+            news.IsHomePage = dto.IsHomePage;
+
 
             if (dto.Image != null)
             {
                 news.ImageUrl = await _mediaService.SaveMediaAsync(dto.Image);
             }
 
-            news.Title = dto.Title;
-            news.Content = dto.Content; 
-            news.SectionId = dto.SectionId;
-
             await _context.SaveChangesAsync();
+
             return NoContent();
         }
 

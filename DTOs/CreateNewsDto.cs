@@ -11,7 +11,7 @@ namespace NewsApp.DTOs
         [Required]
         public string Content { get; set; } = string.Empty;
         public IFormFile? Image { get; set; }
-        public List<IFormFile>? MediaFiles { get; set; }
+        public string? ImageUrl { get; set; } 
         [Required]
         public int SectionId { get; set; }
     }

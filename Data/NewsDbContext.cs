@@ -14,12 +14,12 @@
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Section>().HasData(
-                new Section { Id = 1, Name = "zayed1" },
-                new Section { Id = 2, Name = "zayed2" },
-                new Section { Id = 3, Name = "water company" },
-                new Section { Id = 4, Name = "electricity company" },
-                new Section { Id = 5, Name = "post" },
-                new Section { Id = 6, Name = "city authority" }
+                new Section { Id = 1, Name = "Entertainment Variety" },
+                new Section { Id = 2, Name = "News" },
+                new Section { Id = 3, Name = "Economics" },
+                new Section { Id = 4, Name = "Accidents" },
+                new Section { Id = 5, Name = "sports" },
+                new Section { Id = 6, Name = "Real Estate" }
             );
         }
 

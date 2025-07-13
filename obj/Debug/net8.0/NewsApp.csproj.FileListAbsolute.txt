@@ -165,3 +165,5 @@ C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\bin\Debug\net8.0\sv\Hangfire.Core.res
 C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
 C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
 C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\obj\Debug\net8.0\NewsApp.sourcelink.json
+C:\Users\Omda\Desktop\.net\NewsApp\NewsApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

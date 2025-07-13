@@ -14,7 +14,7 @@
             var now = DateTime.UtcNow;
 
             var expiredNews = await _context.News
-                .Where(n => n.IsImportant && n.CreatedAt <= now.AddMinutes(-2))
+                .Where(n => n.IsImportant && n.CreatedAt <= now.AddHours(-2))
                 .ToListAsync();
 
             foreach (var news in expiredNews)

@@ -1,12 +1,4 @@
 
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using NewsApp.Data;
-using NewsApp.DTOs;
-using NewsApp.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NewsApp.Controllers
 {

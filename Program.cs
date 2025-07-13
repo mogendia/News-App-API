@@ -110,5 +110,5 @@ app.MapHangfireDashboard();
 app.MapControllers();
 RecurringJob.AddOrUpdate<BreakingNewsJob>(
     job => job.UnmarkExpiredBreakingNews(),
-    Cron.Minutely);
+    Cron.Hourly);
 app.Run();

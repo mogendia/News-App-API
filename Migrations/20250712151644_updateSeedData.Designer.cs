@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NewsApp.Data;
 
@@ -11,9 +12,11 @@ using NewsApp.Data;
 namespace NewsApp.Migrations
 {
     [DbContext(typeof(NewsDbContext))]
-    partial class NewsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250712151644_updateSeedData")]
+    partial class updateSeedData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -315,32 +318,42 @@ namespace NewsApp.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Entertainment Variety"
+                            Name = "zayed1"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "News"
+                            Name = "zayed2"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Economics"
+                            Name = "water company"
                         },
                         new
                         {
                             Id = 4,
-                            Name = "Accidents"
+                            Name = "electricity company"
                         },
                         new
                         {
                             Id = 5,
-                            Name = "sports"
+                            Name = "post"
                         },
                         new
                         {
                             Id = 6,
-                            Name = "Real Estate"
+                            Name = "city authority"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "sports"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Entertainment Variety"
                         });
                 });
 

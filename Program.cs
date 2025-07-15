@@ -1,8 +1,4 @@
-
-
 using Hangfire;
-using NewsApp.Middleware;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,8 +8,6 @@ builder.Services.AddHangfire(config =>
 builder.Services.AddHangfireServer();
 builder.Services.AddScoped<BreakingNewsJob>();
 builder.Services.AddSignalR();
-
-
 builder.Services.AddControllers();
 builder.Services.AddDbContext<NewsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -104,7 +98,6 @@ using (var scope = app.Services.CreateScope())
 
 app.UseStaticFiles();
 app.UseCors("AllowAll");
-app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

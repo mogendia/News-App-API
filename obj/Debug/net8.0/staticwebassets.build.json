@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mPUz/cVp709rLRvaSzd++sdqzjL+FPC3d0M9WQq1lOk=",
+  "Hash": "tq73rtrbegZXtvCR7N5k26l7xfEx6P22YyS844Dj+HE=",
   "Source": "NewsApp",
   "BasePath": "_content/NewsApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NewsApp\\wwwroot",
       "Source": "NewsApp",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/02a45f8f-dbe2-49ac-a6a9-3bbf09374484#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/03ef6b5e-75b7-45e3-a427-c7980437a93a#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/07816aca-c93c-4b47-b485-441e7aedb970#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/0e622122-6998-440d-99b9-f9f334e086aa#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/11337d76-9532-45bc-9b8e-6a4af5c77e9a#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/11c2b8b8-96d3-492b-b7c9-3db5d9395496#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/154ebbaf-7ee3-47cf-8094-a7e67c2229ff#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/2158819f-bfdc-4185-9456-ca1ef917f9f8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/25121652-4a4e-438d-8b89-a4985060a4cd#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/28ccd3d4-b693-41b3-b8bc-a533ac8111b4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/2a3e3c11-95ea-4c83-b745-c2095dd978e8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/2adbceaf-7b19-45be-a1e2-d2050f5f1347#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/34a6b571-df77-43fa-ae74-e3d51979e203#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/522430e9-f765-4f2f-85d7-58418f706d13#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/577a5ae4-bceb-402b-9eae-25a67c5c723b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/6dd3a891-3667-42a7-b632-e497b244cde8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/6e56730f-222b-4ac4-8665-b16c7ed5d0ea#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/79c6595a-a24a-4c60-a6bd-df37ee92c6ab#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/7b4a647b-cbfd-4a35-a0b2-5648efbc2408#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/84fcf349-89c0-4751-8775-401db9c3370c#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/9a2c3486-5f98-41f7-be8c-ebf3d79a3e90#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/a5bb1fa3-e42e-4561-acaf-c9b882d2edd4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/ae9157d9-3a10-48ba-b5e5-204e1cbc3875#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/b5c495bd-2a29-4eec-85ab-35039a478664#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/b90b6a43-5122-433f-9105-5c54994528ae#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/bca4d659-9808-405c-af58-a76ffca2a19e#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/c0a400c7-a8bc-464f-b15d-dbbff10df2c7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/c13db071-8d98-4642-81ef-960277c018bf#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/e67282ab-d914-4e3d-94a7-546a0a05e54d#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/eb19e9ea-9206-4632-b445-7f93599fd709#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/ee8d34da-e616-4e29-b257-9ed527d1eec3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/images/f4ef4b6c-3912-484a-9da0-db357d7cc0b3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/misc/0e781276-722f-4eab-ab1e-77bb2d56a4dc#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/videos/8d74723b-2671-473a-b85a-b01bdf95f97c#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4"
     },
     {
-      "Identity": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
+      "Identity": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
       "SourceId": "NewsApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\",
+      "ContentRoot": "F:\\api\\News-App-API\\wwwroot\\",
       "BasePath": "_content/NewsApp",
       "RelativePath": "uploads/videos/ed5a6795-5de5-4524-aae1-40c88c2c9904#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -797,7 +797,7 @@
   "Endpoints": [
     {
       "Route": "uploads/images/02a45f8f-dbe2-49ac-a6a9-3bbf09374484.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -818,7 +818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -842,7 +842,7 @@
     },
     {
       "Route": "uploads/images/02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\02a45f8f-dbe2-49ac-a6a9-3bbf09374484.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -863,7 +863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -879,7 +879,7 @@
     },
     {
       "Route": "uploads/images/03ef6b5e-75b7-45e3-a427-c7980437a93a.g07evvk0ms.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -900,7 +900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 01:15:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -924,7 +924,7 @@
     },
     {
       "Route": "uploads/images/03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\03ef6b5e-75b7-45e3-a427-c7980437a93a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -945,7 +945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 01:15:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -961,7 +961,7 @@
     },
     {
       "Route": "uploads/images/07816aca-c93c-4b47-b485-441e7aedb970.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -982,7 +982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1006,7 +1006,7 @@
     },
     {
       "Route": "uploads/images/07816aca-c93c-4b47-b485-441e7aedb970.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\07816aca-c93c-4b47-b485-441e7aedb970.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1027,7 +1027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1043,7 +1043,7 @@
     },
     {
       "Route": "uploads/images/0e622122-6998-440d-99b9-f9f334e086aa.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1064,7 +1064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 02:36:14 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1080,7 +1080,7 @@
     },
     {
       "Route": "uploads/images/0e622122-6998-440d-99b9-f9f334e086aa.nwaitmh5yi.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\0e622122-6998-440d-99b9-f9f334e086aa.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1101,7 +1101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 02:36:14 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1125,7 +1125,7 @@
     },
     {
       "Route": "uploads/images/11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1146,7 +1146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:31:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1162,7 +1162,7 @@
     },
     {
       "Route": "uploads/images/11337d76-9532-45bc-9b8e-6a4af5c77e9a.li5zj0krir.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11337d76-9532-45bc-9b8e-6a4af5c77e9a.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1183,7 +1183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:31:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1207,7 +1207,7 @@
     },
     {
       "Route": "uploads/images/11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1228,7 +1228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:41 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1244,7 +1244,7 @@
     },
     {
       "Route": "uploads/images/11c2b8b8-96d3-492b-b7c9-3db5d9395496.u1nwrnjzmb.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\11c2b8b8-96d3-492b-b7c9-3db5d9395496.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1265,7 +1265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:41 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1289,7 +1289,7 @@
     },
     {
       "Route": "uploads/images/154ebbaf-7ee3-47cf-8094-a7e67c2229ff.g07evvk0ms.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1310,7 +1310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1334,7 +1334,7 @@
     },
     {
       "Route": "uploads/images/154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\154ebbaf-7ee3-47cf-8094-a7e67c2229ff.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1355,7 +1355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:25:34 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1371,7 +1371,7 @@
     },
     {
       "Route": "uploads/images/2158819f-bfdc-4185-9456-ca1ef917f9f8.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1392,7 +1392,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,7 +1416,7 @@
     },
     {
       "Route": "uploads/images/2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2158819f-bfdc-4185-9456-ca1ef917f9f8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1437,7 +1437,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1453,7 +1453,7 @@
     },
     {
       "Route": "uploads/images/25121652-4a4e-438d-8b89-a4985060a4cd.pmuaiqx4e8.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1474,7 +1474,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 15:59:53 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1498,7 +1498,7 @@
     },
     {
       "Route": "uploads/images/25121652-4a4e-438d-8b89-a4985060a4cd.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\25121652-4a4e-438d-8b89-a4985060a4cd.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1519,7 +1519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 15:59:53 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1535,7 +1535,7 @@
     },
     {
       "Route": "uploads/images/28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1556,7 +1556,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:54:26 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1572,7 +1572,7 @@
     },
     {
       "Route": "uploads/images/28ccd3d4-b693-41b3-b8bc-a533ac8111b4.zwsdiopahw.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\28ccd3d4-b693-41b3-b8bc-a533ac8111b4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1593,7 +1593,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:54:26 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1617,7 +1617,7 @@
     },
     {
       "Route": "uploads/images/2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1638,7 +1638,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 19:27:01 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1654,7 +1654,7 @@
     },
     {
       "Route": "uploads/images/2a3e3c11-95ea-4c83-b745-c2095dd978e8.k245l49t9r.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2a3e3c11-95ea-4c83-b745-c2095dd978e8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1675,7 +1675,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 19:27:01 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1699,7 +1699,7 @@
     },
     {
       "Route": "uploads/images/2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1720,7 +1720,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:13:45 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1736,7 +1736,7 @@
     },
     {
       "Route": "uploads/images/2adbceaf-7b19-45be-a1e2-d2050f5f1347.yly1lgr0ee.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\2adbceaf-7b19-45be-a1e2-d2050f5f1347.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1757,7 +1757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:13:45 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1781,7 +1781,7 @@
     },
     {
       "Route": "uploads/images/34a6b571-df77-43fa-ae74-e3d51979e203.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1802,7 +1802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:38:43 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1818,7 +1818,7 @@
     },
     {
       "Route": "uploads/images/34a6b571-df77-43fa-ae74-e3d51979e203.v21uvz3ev6.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\34a6b571-df77-43fa-ae74-e3d51979e203.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1839,7 +1839,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:38:43 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1863,7 +1863,7 @@
     },
     {
       "Route": "uploads/images/3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1884,7 +1884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 15:55:37 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1900,7 +1900,7 @@
     },
     {
       "Route": "uploads/images/3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.v21uvz3ev6.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\3c74dab0-a9a1-44c8-8a28-29f23a0ed8f2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1921,7 +1921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 15:55:37 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1945,7 +1945,7 @@
     },
     {
       "Route": "uploads/images/522430e9-f765-4f2f-85d7-58418f706d13.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1966,7 +1966,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1990,7 +1990,7 @@
     },
     {
       "Route": "uploads/images/522430e9-f765-4f2f-85d7-58418f706d13.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\522430e9-f765-4f2f-85d7-58418f706d13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2011,7 +2011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2027,7 +2027,7 @@
     },
     {
       "Route": "uploads/images/577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2048,7 +2048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 07:02:47 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2064,7 +2064,7 @@
     },
     {
       "Route": "uploads/images/577a5ae4-bceb-402b-9eae-25a67c5c723b.nwaitmh5yi.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\577a5ae4-bceb-402b-9eae-25a67c5c723b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2085,7 +2085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 07:02:47 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2109,7 +2109,7 @@
     },
     {
       "Route": "uploads/images/6dd3a891-3667-42a7-b632-e497b244cde8.7uwvu6scqx.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2130,7 +2130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:40:36 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2154,7 +2154,7 @@
     },
     {
       "Route": "uploads/images/6dd3a891-3667-42a7-b632-e497b244cde8.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6dd3a891-3667-42a7-b632-e497b244cde8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2175,7 +2175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:40:36 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2191,7 +2191,7 @@
     },
     {
       "Route": "uploads/images/6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2212,7 +2212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:02:57 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2228,7 +2228,7 @@
     },
     {
       "Route": "uploads/images/6e56730f-222b-4ac4-8665-b16c7ed5d0ea.wu4g38mbn0.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\6e56730f-222b-4ac4-8665-b16c7ed5d0ea.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2249,7 +2249,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:02:57 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2273,7 +2273,7 @@
     },
     {
       "Route": "uploads/images/79c6595a-a24a-4c60-a6bd-df37ee92c6ab.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2294,7 +2294,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:41 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2318,7 +2318,7 @@
     },
     {
       "Route": "uploads/images/79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\79c6595a-a24a-4c60-a6bd-df37ee92c6ab.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2339,7 +2339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:41 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2355,7 +2355,7 @@
     },
     {
       "Route": "uploads/images/7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2376,7 +2376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 01:17:43 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2392,7 +2392,7 @@
     },
     {
       "Route": "uploads/images/7b4a647b-cbfd-4a35-a0b2-5648efbc2408.nwaitmh5yi.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\7b4a647b-cbfd-4a35-a0b2-5648efbc2408.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2413,7 +2413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 01:17:43 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2437,7 +2437,7 @@
     },
     {
       "Route": "uploads/images/84fcf349-89c0-4751-8775-401db9c3370c.7uwvu6scqx.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2458,7 +2458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:43:19 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2482,7 +2482,7 @@
     },
     {
       "Route": "uploads/images/84fcf349-89c0-4751-8775-401db9c3370c.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\84fcf349-89c0-4751-8775-401db9c3370c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2503,7 +2503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:43:19 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2519,7 +2519,7 @@
     },
     {
       "Route": "uploads/images/9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.5qj7lcpnyz.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2540,7 +2540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:27:56 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2564,7 +2564,7 @@
     },
     {
       "Route": "uploads/images/9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\9a2c3486-5f98-41f7-be8c-ebf3d79a3e90.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2585,7 +2585,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:27:56 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2601,7 +2601,7 @@
     },
     {
       "Route": "uploads/images/a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.bc0b7861t2.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2622,7 +2622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:35:30 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2646,7 +2646,7 @@
     },
     {
       "Route": "uploads/images/a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\a5bb1fa3-e42e-4561-acaf-c9b882d2edd4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2667,7 +2667,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 00:35:30 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2683,7 +2683,7 @@
     },
     {
       "Route": "uploads/images/ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.2ddt41p8x2.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2704,7 +2704,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:32:23 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2728,7 +2728,7 @@
     },
     {
       "Route": "uploads/images/ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ab5b01b7-1fc8-4d67-ba4e-98f4e2718edc.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2749,7 +2749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:32:23 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2765,7 +2765,7 @@
     },
     {
       "Route": "uploads/images/ae9157d9-3a10-48ba-b5e5-204e1cbc3875.6lazsz488o.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2786,7 +2786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:13:04 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2810,7 +2810,7 @@
     },
     {
       "Route": "uploads/images/ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ae9157d9-3a10-48ba-b5e5-204e1cbc3875.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2831,7 +2831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 01:13:04 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2847,7 +2847,7 @@
     },
     {
       "Route": "uploads/images/b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2868,7 +2868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 06:05:21 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2884,7 +2884,7 @@
     },
     {
       "Route": "uploads/images/b5c495bd-2a29-4eec-85ab-35039a478664.nwaitmh5yi.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b5c495bd-2a29-4eec-85ab-35039a478664.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2905,7 +2905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 06:05:21 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2929,7 +2929,7 @@
     },
     {
       "Route": "uploads/images/b90b6a43-5122-433f-9105-5c54994528ae.3kyv3zr603.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2950,7 +2950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:29:09 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2974,7 +2974,7 @@
     },
     {
       "Route": "uploads/images/b90b6a43-5122-433f-9105-5c54994528ae.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\b90b6a43-5122-433f-9105-5c54994528ae.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2995,7 +2995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:29:09 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3011,7 +3011,7 @@
     },
     {
       "Route": "uploads/images/bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3032,7 +3032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:50:28 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3048,7 +3048,7 @@
     },
     {
       "Route": "uploads/images/bca4d659-9808-405c-af58-a76ffca2a19e.ntd8uildc6.jpeg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\bca4d659-9808-405c-af58-a76ffca2a19e.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3069,7 +3069,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 16:50:28 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3093,7 +3093,7 @@
     },
     {
       "Route": "uploads/images/c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3114,7 +3114,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 07:43:27 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3130,7 +3130,7 @@
     },
     {
       "Route": "uploads/images/c0a400c7-a8bc-464f-b15d-dbbff10df2c7.nwaitmh5yi.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c0a400c7-a8bc-464f-b15d-dbbff10df2c7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3151,7 +3151,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Jul 2025 07:43:27 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3175,7 +3175,7 @@
     },
     {
       "Route": "uploads/images/c13db071-8d98-4642-81ef-960277c018bf.7k92pup7uk.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3196,7 +3196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 02:19:55 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3220,7 +3220,7 @@
     },
     {
       "Route": "uploads/images/c13db071-8d98-4642-81ef-960277c018bf.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\c13db071-8d98-4642-81ef-960277c018bf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3241,7 +3241,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 02:19:55 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3257,7 +3257,7 @@
     },
     {
       "Route": "uploads/images/e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3278,7 +3278,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:18:04 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3294,7 +3294,7 @@
     },
     {
       "Route": "uploads/images/e67282ab-d914-4e3d-94a7-546a0a05e54d.kx32pw65r6.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\e67282ab-d914-4e3d-94a7-546a0a05e54d.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3315,7 +3315,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:18:04 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3339,7 +3339,7 @@
     },
     {
       "Route": "uploads/images/eb19e9ea-9206-4632-b445-7f93599fd709.2e9bf0nscj.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3360,7 +3360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 01:00:57 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3384,7 +3384,7 @@
     },
     {
       "Route": "uploads/images/eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\eb19e9ea-9206-4632-b445-7f93599fd709.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3405,7 +3405,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Jul 2025 01:00:57 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3421,7 +3421,7 @@
     },
     {
       "Route": "uploads/images/ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3442,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 03:29:36 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3458,7 +3458,7 @@
     },
     {
       "Route": "uploads/images/ee8d34da-e616-4e29-b257-9ed527d1eec3.zwsdiopahw.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\ee8d34da-e616-4e29-b257-9ed527d1eec3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3479,7 +3479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 03:29:36 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3503,7 +3503,7 @@
     },
     {
       "Route": "uploads/images/f4ef4b6c-3912-484a-9da0-db357d7cc0b3.g07evvk0ms.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3524,7 +3524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3548,7 +3548,7 @@
     },
     {
       "Route": "uploads/images/f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\images\\f4ef4b6c-3912-484a-9da0-db357d7cc0b3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3569,7 +3569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 05 Jul 2025 23:55:05 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3585,7 +3585,7 @@
     },
     {
       "Route": "uploads/misc/0e781276-722f-4eab-ab1e-77bb2d56a4dc.pxgdue30b3.webp",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3606,7 +3606,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 05:34:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3630,7 +3630,7 @@
     },
     {
       "Route": "uploads/misc/0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\misc\\0e781276-722f-4eab-ab1e-77bb2d56a4dc.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3651,7 +3651,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 05:34:03 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3667,7 +3667,7 @@
     },
     {
       "Route": "uploads/videos/8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3688,7 +3688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:53:33 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3704,7 +3704,7 @@
     },
     {
       "Route": "uploads/videos/8d74723b-2671-473a-b85a-b01bdf95f97c.q2anfgblwv.mp4",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\8d74723b-2671-473a-b85a-b01bdf95f97c.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3725,7 +3725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 17:53:33 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3749,7 +3749,7 @@
     },
     {
       "Route": "uploads/videos/ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3770,7 +3770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:08:56 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3786,7 +3786,7 @@
     },
     {
       "Route": "uploads/videos/ed5a6795-5de5-4524-aae1-40c88c2c9904.q2anfgblwv.mp4",
-      "AssetFile": "C:\\Users\\Omda\\Desktop\\.net\\NewsApp\\NewsApp\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
+      "AssetFile": "F:\\api\\News-App-API\\wwwroot\\uploads\\videos\\ed5a6795-5de5-4524-aae1-40c88c2c9904.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3807,7 +3807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Jul 2025 18:08:56 GMT"
+          "Value": "Tue, 15 Jul 2025 19:00:30 GMT"
         },
         {
           "Name": "Cache-Control",

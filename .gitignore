@@ -1,0 +1,10 @@
+# === Visual Studio ===
+.vs/
+*.user
+*.suo
+
+# === Build Folders ===
+bin/
+obj/
+out/
+publish/

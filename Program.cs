@@ -10,6 +10,7 @@ builder.Services.AddHangfire(config =>
 
 builder.Services.AddHangfireServer();
 builder.Services.AddScoped<BreakingNewsJob>();
+builder.Services.AddSignalR();
 
 
 builder.Services.AddControllers();
@@ -111,4 +112,6 @@ app.MapControllers();
 RecurringJob.AddOrUpdate<BreakingNewsJob>(
     job => job.UnmarkExpiredBreakingNews(),
     Cron.Hourly);
+app.MapHub<LiveHub>("/livehub");
+
 app.Run();

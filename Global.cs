@@ -16,3 +16,4 @@ global using System.Security.Claims;
 global using Microsoft.AspNetCore.Authorization;
 global using NewsApp.DTOs;
 global using System.Data;
+global using Microsoft.AspNetCore.SignalR;

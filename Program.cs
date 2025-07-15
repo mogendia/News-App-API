@@ -1,6 +1,7 @@
 
 
 using Hangfire;
+using NewsApp.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -103,6 +104,7 @@ using (var scope = app.Services.CreateScope())
 
 app.UseStaticFiles();
 app.UseCors("AllowAll");
+app.UseMiddleware<ExceptionMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

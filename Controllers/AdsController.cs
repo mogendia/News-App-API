@@ -13,7 +13,7 @@ namespace NewsApp.Controllers
             _context = context;
             _mediaService = mediaService;
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPost]
         public async Task<IActionResult> CreateAd([FromForm] CreateAdDto dto)
         {
@@ -41,7 +41,7 @@ namespace NewsApp.Controllers
 
             return CreatedAtAction(nameof(GetAd), new { id = ad.Id }, new { ad.Id });
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAd(int id, [FromForm] CreateAdDto dto)
         {
@@ -107,7 +107,7 @@ namespace NewsApp.Controllers
 
             return Ok(ads);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAd(int id)
         {

@@ -14,6 +14,12 @@
 
         public override async Task OnDisconnectedAsync(Exception? ex)
         {
+            if (Context.ConnectionId == AdminConnectionId)
+            {
+                AdminConnectionId = "";
+                await Clients.All.SendAsync("OnLiveEnded");
+            }
+
             ConnectedUsers--;
             await Clients.All.SendAsync("UserCountChanged", ConnectedUsers);
             await base.OnDisconnectedAsync(ex);
@@ -32,11 +38,8 @@
 
         public async Task GetViewerId()
         {
-            var viewerId = Context.ConnectionId;
-            if (!string.IsNullOrEmpty(AdminConnectionId))
-            {
-                await Clients.Client(AdminConnectionId).SendAsync("ReceiveViewerId", viewerId);
-            }
+            var connectionId = Context.ConnectionId;
+            await Clients.Caller.SendAsync("ReceiveViewerId", connectionId);
         }
 
         public async Task SendOfferToViewer(string viewerId, string sdp)
@@ -71,5 +74,12 @@
         {
             await Clients.Client(targetConnectionId).SendAsync("ReceiveCandidate", Context.ConnectionId, candidate);
         }
+
+        public async Task<bool> IsLive()
+        {
+            return !string.IsNullOrEmpty(AdminConnectionId);
+        }
+      
+
     }
 }

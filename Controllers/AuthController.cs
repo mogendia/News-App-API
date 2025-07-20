@@ -29,8 +29,9 @@ namespace NewsApp.API.Controllers
             }
             return BadRequest(result.Errors);
         }
+
         [HttpGet("admins")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> GetAllAdmins()
         {
             var adminRoleUsers = await _userManager.GetUsersInRoleAsync("Admin");
@@ -41,12 +42,11 @@ namespace NewsApp.API.Controllers
                 user.Email,
                 user.UserName
             }).ToList();
-
             return Ok(adminDtos);
         }
 
-
         [HttpPost("register-admin")]
+        [Authorize(Roles = "SuperAdmin")]
         public async Task<IActionResult> RegisterAdmin(RegisterDto model)
         {
             var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
@@ -56,6 +56,66 @@ namespace NewsApp.API.Controllers
             {
                 await _userManager.AddToRoleAsync(user, "Admin");
                 return Ok(new { Message = "Admin registered successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
+        [HttpPost("register-superadmin")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> RegisterSuperAdmin(RegisterDto model)
+        {
+            var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(user, "SuperAdmin");
+                return Ok(new { Message = "SuperAdmin registered successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
+
+
+        [HttpPut("update-admin/{id}")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> UpdateAdmin(string id, [FromBody] UpdateAdminDto model)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound(new { Message = "Admin not found" });
+            }
+
+            user.Email = model.Email;
+            user.UserName = model.Email;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Admin updated successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
+
+        [HttpDelete("delete-admin/{id}")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> DeleteAdmin(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound(new { Message = "Admin not found" });
+            }
+
+            var isAdmin = await _userManager.IsInRoleAsync(user, "Admin");
+            if (!isAdmin)
+            {
+                return BadRequest(new { Message = "User is not an Admin" });
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                return Ok(new { Message = "Admin deleted successfully" });
             }
             return BadRequest(result.Errors);
         }

@@ -1,4 +1,10 @@
-﻿
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using NewsApp.Data;
+using System.Security.Claims;
+using System.Threading.Tasks;
+
 namespace NewsApp.Controllers
 {
     [Route("api/[controller]")]
@@ -16,11 +22,12 @@ namespace NewsApp.Controllers
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetNews(
-                     [FromQuery] string? search = null,
-                     [FromQuery] int? section = null)
+            [FromQuery] string? search = null,
+            [FromQuery] int? section = null)
         {
             var query = _context.News
                 .Include(n => n.Section)
+                .Where(n => n.Status == "Approved")
                 .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(search))
@@ -43,18 +50,20 @@ namespace NewsApp.Controllers
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
-                    SectionName = n.Section.Name
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
                 })
                 .OrderByDescending(x => x.CreatedAt)
                 .ToListAsync();
 
             return Ok(result);
         }
+
         [HttpGet("homepage")]
         public async Task<ActionResult<IEnumerable<NewsResponseDto>>> HomePage()
         {
             var breakingNews = await _context.News
-                .Where(n => n.IsHomePage == true)
+                .Where(n => n.IsHomePage == true && n.Status == "Approved")
                 .Include(n => n.Section)
                 .OrderByDescending(n => n.CreatedAt)
                 .Select(n => new NewsResponseDto
@@ -64,16 +73,20 @@ namespace NewsApp.Controllers
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
-                    SectionName = n.Section.Name
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
+
                 })
                 .ToListAsync();
 
             return Ok(breakingNews);
-        }    [HttpGet("breaking")]
+        }
+
+        [HttpGet("breaking")]
         public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetBreakingNews()
         {
             var breakingNews = await _context.News
-                .Where(n => n.IsImportant == true)
+                .Where(n => n.IsImportant == true && n.Status == "Approved")
                 .Include(n => n.Section)
                 .OrderByDescending(n => n.CreatedAt)
                 .Select(n => new NewsResponseDto
@@ -83,7 +96,9 @@ namespace NewsApp.Controllers
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
-                    SectionName = n.Section.Name
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
+
                 })
                 .ToListAsync();
 
@@ -93,15 +108,19 @@ namespace NewsApp.Controllers
         [HttpGet("section/{sectionId}")]
         public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetNewsBySection(int sectionId)
         {
-            var news = await _context.News.Where(x => x.SectionId == sectionId)
-                .Select(n=>new NewsResponseDto
+            var news = await _context.News
+                .Where(x => x.SectionId == sectionId && x.Status == "Approved")
+                .Include(n => n.Section)
+                .Select(n => new NewsResponseDto
                 {
                     Id = n.Id,
                     Title = n.Title,
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
-                    SectionName = n.Section.Name
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
+
                 })
                 .ToListAsync();
             return Ok(news);
@@ -116,7 +135,8 @@ namespace NewsApp.Controllers
             query = query.ToLower();
 
             var news = await _context.News
-                .Where(n => n.Title.ToLower().Contains(query) || n.Content.ToLower().Contains(query))
+                .Where(n => (n.Title.ToLower().Contains(query) || n.Content.ToLower().Contains(query)) && n.Status == "Approved")
+                .Include(n => n.Section)
                 .OrderByDescending(n => n.CreatedAt)
                 .Select(n => new NewsResponseDto
                 {
@@ -124,13 +144,12 @@ namespace NewsApp.Controllers
                     Title = n.Title,
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
-                    SectionId = n.SectionId,
-                    IsImportant = n.IsImportant,
-                    IsHomePage = n.IsHomePage,
-                    CreatedAt = n.CreatedAt
+                    CreatedAt = n.CreatedAt,
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
+
                 })
                 .ToListAsync();
-
 
             return Ok(news);
         }
@@ -140,6 +159,7 @@ namespace NewsApp.Controllers
         {
             var result = await _context.News
                 .Include(n => n.Section)
+                .Where(n => n.Id == id && n.Status == "Approved")
                 .Select(n => new NewsResponseDto
                 {
                     Id = n.Id,
@@ -147,20 +167,24 @@ namespace NewsApp.Controllers
                     Content = n.Content,
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
-                    SectionName = n.Section.Name
+                    SectionName = n.Section.Name,
+                    WrittenBy = n.WrittenBy
+
                 })
-                .OrderByDescending(x => x.CreatedAt)
-                .SingleOrDefaultAsync(i=>i.Id == id);
+                .SingleOrDefaultAsync();
+
+            if (result == null)
+                return NotFound();
 
             return Ok(result);
         }
 
-
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpPost]
         public async Task<IActionResult> CreateNews([FromForm] CreateNewsDto dto)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "unknown";
+            var isSuperAdmin = User.IsInRole("SuperAdmin");
 
             string? mainImageUrl = null;
             if (dto.Image != null)
@@ -171,34 +195,40 @@ namespace NewsApp.Controllers
             var news = new News
             {
                 Title = dto.Title,
-                Content = dto.Content, 
+                Content = dto.Content,
                 ImageUrl = mainImageUrl,
                 SectionId = dto.SectionId,
                 CreatedAt = DateTime.UtcNow,
                 OwnerId = userId,
                 IsHomePage = dto.IsHomePage,
-                IsImportant = dto.IsImportant
+                IsImportant = dto.IsImportant,
+                WrittenBy = dto.WrittenBy,
+                Status = isSuperAdmin ? "Approved" : "Pending" 
             };
 
             _context.News.Add(news);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetNews), new { id = news.Id }, new { news.Id });
+            return CreatedAtAction(nameof(GetNewsById), new { id = news.Id }, new { news.Id });
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateNews(int id, [FromForm] CreateNewsDto dto)
         {
             var news = await _context.News.FindAsync(id);
-            if (news == null) return NotFound();
+            if (news == null)
+                return NotFound();
+
+            var isSuperAdmin = User.IsInRole("SuperAdmin");
 
             news.Title = dto.Title;
             news.Content = dto.Content;
             news.SectionId = dto.SectionId;
             news.IsImportant = dto.IsImportant;
             news.IsHomePage = dto.IsHomePage;
-
+            news.WrittenBy = dto.WrittenBy;
+            news.Status = isSuperAdmin ? "Approved" : "Pending"; 
 
             if (dto.Image != null)
             {
@@ -210,9 +240,7 @@ namespace NewsApp.Controllers
             return NoContent();
         }
 
-
-        [Authorize(Roles = "Admin")]
-
+        [Authorize(Roles = "Admin,SuperAdmin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteNews(int id)
         {
@@ -223,6 +251,58 @@ namespace NewsApp.Controllers
             _context.News.Remove(news);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        [Authorize(Roles = "SuperAdmin")]
+        [HttpGet("pending")]
+        public async Task<ActionResult<IEnumerable<NewsResponseDto>>> GetPendingNews()
+        {
+            var pendingNews = await _context.News
+                .Where(n => n.Status == "Pending")
+                .Include(n => n.Section)
+                .OrderByDescending(n => n.CreatedAt)
+                .Select(n => new NewsResponseDto
+                {
+                    Id = n.Id,
+                    Title = n.Title,
+                    Content = n.Content,
+                    ImageUrl = n.ImageUrl,
+                    CreatedAt = n.CreatedAt,
+                    SectionName = n.Section.Name,
+                    Status = n.Status,
+                    WrittenBy = n.WrittenBy
+                })
+                .ToListAsync();
+
+            return Ok(pendingNews);
+        }
+
+        [Authorize(Roles = "SuperAdmin")]
+        [HttpPost("approve/{id}")]
+        public async Task<IActionResult> ApproveNews(int id)
+        {
+            var news = await _context.News.FindAsync(id);
+            if (news == null)
+                return NotFound();
+
+            news.Status = "Approved";
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "News approved successfully" });
+        }
+
+        [Authorize(Roles = "SuperAdmin")]
+        [HttpPost("reject/{id}")]
+        public async Task<IActionResult> RejectNews(int id)
+        {
+            var news = await _context.News.FindAsync(id);
+            if (news == null)
+                return NotFound();
+
+            news.Status = "Rejected";
+            await _context.SaveChangesAsync();
+
+            return Ok(new { Message = "News rejected successfully" });
         }
     }
 }

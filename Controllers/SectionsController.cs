@@ -29,7 +29,7 @@ namespace NewsApp.Controllers
                 .Select(s => new SectionDto { Id = s.Id, Name = s.Name })
                 .FirstOrDefaultAsync(s => s.Id == id);
         }
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPost]
         public async Task<ActionResult<SectionDto>> PostSection(CreateSectionDto createSectionDto)
         {
@@ -50,7 +50,7 @@ namespace NewsApp.Controllers
             return CreatedAtAction("GetSection", new { id = section.Id }, sectionDto);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutSection(int id, CreateSectionDto createSectionDto)
         {
@@ -82,7 +82,7 @@ namespace NewsApp.Controllers
             return NoContent();
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "SuperAdmin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteSection(int id)
         {

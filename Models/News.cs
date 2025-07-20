@@ -7,6 +7,7 @@ namespace NewsApp.Models
         
         public string Title { get; set; } = string.Empty;
         public string Content { get; set; } = string.Empty;
+        public string WrittenBy { get; set; } = string.Empty;
         public string? ImageUrl { get; set; }
         public bool IsImportant { get; set; }
         public bool IsHomePage { get; set; }
@@ -17,5 +18,7 @@ namespace NewsApp.Models
 
         public string OwnerId { get; set; } = string.Empty;
         public ApplicationUser Owner { get; set; } = null!;
+
+        public string Status { get; set; } = "Pending";
     }
 }

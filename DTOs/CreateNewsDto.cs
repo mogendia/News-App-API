@@ -5,7 +5,8 @@ namespace NewsApp.DTOs
     {
         [Required]
         public string Title { get; set; } = string.Empty;
-       
+        [Required]
+        public string WrittenBy { get; set; } = string.Empty;
         public bool IsImportant { get; set; }
         public bool IsHomePage { get; set; }
         [Required]

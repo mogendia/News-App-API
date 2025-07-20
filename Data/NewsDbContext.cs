@@ -21,8 +21,7 @@
                 new Section { Id = 5, Name = "sports" },
                 new Section { Id = 6, Name = "Real Estate" }
             );
+            modelBuilder.Entity<News>().Property(n => n.Status).HasDefaultValue("Pending");
         }
-
-
     }
 }

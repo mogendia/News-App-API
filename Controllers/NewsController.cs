@@ -51,7 +51,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .OrderByDescending(x => x.CreatedAt)
                 .ToListAsync();
@@ -74,8 +75,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
-
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .ToListAsync();
 
@@ -97,8 +98,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
-
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .ToListAsync();
 
@@ -119,8 +120,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
-
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .ToListAsync();
             return Ok(news);
@@ -146,8 +147,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
-
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .ToListAsync();
 
@@ -168,8 +169,8 @@ namespace NewsApp.Controllers
                     ImageUrl = n.ImageUrl,
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
-                    WrittenBy = n.WrittenBy
-
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .SingleOrDefaultAsync();
 
@@ -203,6 +204,7 @@ namespace NewsApp.Controllers
                 IsHomePage = dto.IsHomePage,
                 IsImportant = dto.IsImportant,
                 WrittenBy = dto.WrittenBy,
+                ImageContent = dto.ImageContent,
                 Status = isSuperAdmin ? "Approved" : "Pending" 
             };
 
@@ -228,6 +230,7 @@ namespace NewsApp.Controllers
             news.IsImportant = dto.IsImportant;
             news.IsHomePage = dto.IsHomePage;
             news.WrittenBy = dto.WrittenBy;
+            news.ImageContent = dto.ImageContent;
             news.Status = isSuperAdmin ? "Approved" : "Pending"; 
 
             if (dto.Image != null)
@@ -270,7 +273,8 @@ namespace NewsApp.Controllers
                     CreatedAt = n.CreatedAt,
                     SectionName = n.Section.Name,
                     Status = n.Status,
-                    WrittenBy = n.WrittenBy
+                    WrittenBy = n.WrittenBy,
+                    ImageContent = n.ImageContent
                 })
                 .ToListAsync();
 

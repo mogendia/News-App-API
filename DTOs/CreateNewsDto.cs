@@ -11,6 +11,7 @@ namespace NewsApp.DTOs
         public bool IsHomePage { get; set; }
         [Required]
         public string Content { get; set; } = string.Empty;
+        public string ImageContent { get; set; } = string.Empty;
         public IFormFile? Image { get; set; }
         public string? ImageUrl { get; set; } 
         [Required]
